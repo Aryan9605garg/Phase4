@@ -1,0 +1,196 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Courier New;}{\f2\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green77\blue187;\red0\green128\blue128;\red63\green127\blue127;\red127\green0\blue127;\red0\green0\blue0;\red42\green0\blue255;\red42\green0\blue225;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\cf1\b\f0\fs22\lang9 Source Code:\par
+\par
+
+\pard\sa200\sl276\slmult1\cf0 Index.html:\cf1\par
+\par
+\cf2\b0\f1\fs20 <!\cf3 DOCTYPE\cf0  \cf2 html>\cf0\par
+\cf2 <\cf3 html\cf0  \cf4 lang\cf5 =\cf6\i "en"\cf2\i0 >\cf0\par
+\cf5   \cf2 <\cf3 head\cf2 >\cf0\par
+\cf5     \cf2 <\cf3 meta\cf0  \cf4 charset\cf5 =\cf6\i "UTF-8"\cf0\i0  \cf2 />\cf0\par
+\cf5     \cf2 <\cf3 meta\cf0  \cf4 name\cf5 =\cf6\i "viewport"\cf0\i0  \cf4 content\cf5 =\cf6\i "width=device-width, initial-scale=1.0"\cf0\i0  \cf2 />\cf0\par
+\cf5     \cf2 <\cf3 title\cf2 >\cf5 Budget Planner\cf2 </\cf3 title\cf2 >\cf0\par
+\cf5     \cf2 <\cf3 link\cf0  \cf4 rel\cf5 =\cf6\i "stylesheet"\cf0\i0  \cf4 href\cf5 =\cf6\i "./css/style.css"\cf0\i0  \cf2 />\cf0\par
+\cf5   \cf2 </\cf3 head\cf2 >\cf0\par
+\cf5   \cf2 <\cf3 body\cf2 >\cf0\par
+\cf5     \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "container"\cf2\i0 >\cf0\par
+\cf5       \cf2 <\cf3 header\cf2 >\cf0\par
+\cf5         \cf2 <\cf3 h1\cf2 >\cf5 Budget Planner \ul App\cf2\ulnone </\cf3 h1\cf2 >\cf0\par
+\cf5       \cf2 </\cf3 header\cf2 >\cf0\par
+\cf5       \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "content"\cf2\i0 >\cf0\par
+\cf5         \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "sidebar"\cf2\i0 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "budget"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 h2\cf2 >\cf5 Budget\cf2 </\cf3 h2\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "budget-amount"\cf0\i0  \cf4 id\cf5 =\cf6\i "budget-amount"\cf2\i0 >\cf5 $0\cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "expenses"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 h2\cf2 >\cf5 Expenses\cf2 </\cf3 h2\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "expenses-amount"\cf0\i0  \cf4 id\cf5 =\cf6\i "expenses-amount"\cf2\i0 >\cf5 $0\cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "balance"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 h2\cf2 >\cf5 Balance\cf2 </\cf3 h2\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "balance-amount"\cf0\i0  \cf4 id\cf5 =\cf6\i "balance-amount"\cf2\i0 >\cf5 $0\cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5         \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5         \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "main"\cf2\i0 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "enter-budget-box"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 label\cf0  \cf4 for\cf5 =\cf6\i "budget"\cf2\i0 >\cf5 Enter Your Budget\cf2 </\cf3 label\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 input\cf0  \cf4 type\cf5 =\cf6\i "number"\cf0\i0  \cf4 id\cf5 =\cf6\i "budget"\cf0\i0  \cf2 />\cf0\par
+\cf5             \cf2 <\cf3 label\cf0  \cf4 for\cf5 =\cf6\i "currency"\cf2\i0 >\cf5 Select Currency\cf2 </\cf3 label\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 select\cf0  \cf4 name\cf5 =\cf6\i "symbol"\cf0\i0  \cf4 id\cf5 =\cf6\i "currency"\cf2\i0 >\cf0\par
+\cf5               \cf2 <\cf3 option\cf0  \cf4 value\cf5 =\cf6\i ""\cf0\i0  \cf4 disabled\cf0  \cf4 selected\cf2 >\cf5 -----\cf2 </\cf3 option\cf2 >\cf0\par
+\cf5               \cf2 <\cf3 option\cf0  \cf4 value\cf5 =\cf6\i "\f2\u8377?"\cf2\i0\f1 >\cf5\f2\u8377?\cf2\f1 </\cf3 option\cf2 >\cf0\par
+\cf5               \cf2 <\cf3 option\cf0  \cf4 value\cf5 =\cf6\i "$"\cf2\i0 >\cf5 $\cf2 </\cf3 option\cf2 >\cf0\par
+\cf5             \cf2 </\cf3 select\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 button\cf0  \cf4 id\cf5 =\cf6\i "add-budget-btn"\cf2\i0 >\cf5 Start\cf2 </\cf3 button\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 button\cf0  \cf4 id\cf5 =\cf6\i "reset-app-btn"\cf2\i0 >\cf5 Reset\cf2 </\cf3 button\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "add-expense-box"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 label\cf0  \cf4 for\cf5 =\cf6\i "expense-title"\cf2\i0 >\cf5 Please Enter Your Expense Title\cf2 </\cf3 label\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 input\cf0  \cf4 type\cf5 =\cf6\i "text"\cf0\i0  \cf4 placeholder\cf5 =\cf6\i "Expense Title"\cf0\i0  \cf4 id\cf5 =\cf6\i "expense-title"\cf0\i0  \cf2 />\cf0\par
+\cf5             \cf2 <\cf3 label\cf0  \cf4 for\cf5 =\cf6\i "expense-amount"\cf2\i0 >\cf5 Enter Expense Amount\cf2 </\cf3 label\cf2 >\cf0\par
+\cf5             \cf2 <\cf3 input\cf0  \cf4 type\cf5 =\cf6\i "number"\cf0\i0  \cf4 id\cf5 =\cf6\i "expense-amount"\cf0\i0  \cf4 placeholder\cf5 =\cf6\i "Expense Amount"\cf0\i0  \cf2 />\cf0\par
+\cf5             \cf2 <\cf3 button\cf0  \cf4 id\cf5 =\cf6\i "add-expense-btn"\cf2\i0 >\cf5 Add Expense\cf2 </\cf3 button\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5           \cf2 <\cf3 div\cf0  \cf4 class\cf5 =\cf6\i "expense-list"\cf2\i0 >\cf0\par
+\cf5             \cf2 <\cf3 table\cf2 >\cf0\par
+\cf5               \cf2 <\cf3 thead\cf2 >\cf0\par
+\cf5                 \cf2 <\cf3 tr\cf2 >\cf0\par
+\cf5                   \cf2 <\cf3 th\cf2 >\cf5 Expense Title\cf2 </\cf3 th\cf2 >\cf0\par
+\cf5                   \cf2 <\cf3 th\cf2 >\cf5 Expense Amount\cf2 </\cf3 th\cf2 >\cf0\par
+\cf5                   \cf2 <\cf3 th\cf2 >\cf5 Delete\cf2 </\cf3 th\cf2 >\cf0\par
+\cf5                 \cf2 </\cf3 tr\cf2 >\cf0\par
+\cf5               \cf2 </\cf3 thead\cf2 >\cf0\par
+\cf5               \cf2 <\cf3 tbody\cf0  \cf4 id\cf5 =\cf6\i "expense-list"\cf2\i0 ></\cf3 tbody\cf2 >\cf0\par
+\cf5             \cf2 </\cf3 table\cf2 >\cf0\par
+\cf5           \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5         \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5       \cf2 </\cf3 div\cf2 >\cf0\par
+\cf5     \cf2 </\cf3 div\cf2 >\cf0\par
+\par
+\cf5     \cf2 <\cf3 script\cf0  \cf4 src\cf5 =\cf6\i "./js/script.js"\cf2\i0 ></\cf3 script\cf2 >\cf0\par
+\cf5   \cf2 </\cf3 body\cf2 >\cf0\par
+\cf2 </\cf3 html\cf2 >\cf0\par
+\cf1\b\f0\fs22\par
+\par
+\cf0 Style.css:\par
+\cf3\b0\f1\fs20 *\cf0  \cf5\{\cf0\par
+  \cf4 margin\cf5 :\cf0  \cf7\i 0\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding\cf5 :\cf0  \cf7\i 0\cf5\i0 ;\cf0\par
+\cf5   \cf4 box-sizing\cf5 :\cf0  \cf7\i border-box\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\b body\cf0\b0  \cf5\{\cf0\par
+  \cf4 font-family\cf5 :\cf0  \cf7\i sans-serif\cf5\i0 ;\cf0\par
+\cf5   \cf4 transition\cf5 :\cf0  \cf7\i all\cf0\i0  \cf7\i 0.3s\cf0\i0  \cf7\i ease\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-image\cf5 :\cf0  \cf7\i url("../imgs/bg.jpg")\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-size\cf5 :\cf0  \cf7\i cover\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-position\cf5 :\cf0  \cf7\i center\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .container\cf0\i0  \cf5\{\cf0\par
+  \cf4 width\cf5 :\cf0  \cf7\i 75%\cf5\i0 ;\cf0\par
+\cf5   \cf4 margin\cf5 :\cf0  \cf7\i 0\cf0\i0  \cf7\i auto\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding\cf5 :\cf0  \cf7\i 20px\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-color\cf5 :\cf0  \cf7\i rgba(255,\cf0\i0  \cf7\i 255,\cf0\i0  \cf7\i 255,\cf0\i0  \cf7\i 0.8)\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-position\cf5 :\cf0  \cf7\i bottom\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\b header\cf0\b0  \cf5\{\cf0\par
+  \cf4 text-align\cf5 :\cf0  \cf7\i center\cf5\i0 ;\cf0\par
+\cf5   \cf4 margin-bottom\cf5 : \cf7\i 40px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .content\cf0\i0  \cf5\{\cf0\par
+  \cf4 display\cf5 :\cf0  \cf7\i flex\cf5\i0 ;\cf0\par
+\cf5   \cf4 flex-wrap\cf5 :\cf0  \cf7\i wrap\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .sidebar\cf0\i0  \cf5\{\cf0\par
+  \cf4 flex\cf5 :\cf0  \cf7\i 0\cf0\i0  \cf7\i 0\cf0\i0  \cf7\i 30%\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .budget\b\i0 ,\cf0\b0\par
+\cf3\i .expenses\b\i0 ,\cf0\b0\par
+\cf3\i .balance\cf0\i0  \cf5\{\cf0\par
+  \cf4 margin-bottom\cf5 :\cf0  \cf7\i 20px\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding\cf5 :\cf0  \cf7\i 10px\cf5\i0 ;\cf0\par
+\cf5   \cf4 border-radius\cf5 :\cf0  \cf7\i 5px\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-color\cf5 :\cf0  \cf7\i #333\cf5\i0 ;\cf0\par
+\cf5   \cf4 color\cf5 :\cf0  \cf7\i #fff\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .budget-amount\b\i0 ,\cf0\b0\par
+\cf3\i .expenses-amount\b\i0 ,\cf0\b0\par
+\cf3\i .balance-amount\cf0\i0  \cf5\{\cf0\par
+  \cf4 font-size\cf5 :\cf0  \cf7\i 30px\cf5\i0 ;\cf0\par
+\cf5   \cf4 font-weight\cf5 :\cf0  \cf7\i bold\cf5\i0 ;\cf0\par
+\cf5   \cf4 text-align\cf5 :\cf0  \cf7\i center\cf5\i0 ;\cf0\par
+\cf5   \cf4 margin-top\cf5 :\cf0  \cf7\i 10px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .main\cf0\i0  \cf5\{\cf0\par
+  \cf4 flex\cf5 :\cf0  \cf7\i 0\cf0\i0  \cf7\i 0\cf0\i0  \cf7\i 70%\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding-left\cf5 :\cf0  \cf7\i 20px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .enter-budget-box\b\i0 ,\cf0\b0\par
+\cf3\i .add-expense-box\b\i0 ,\cf0\b0\par
+\cf3\i .expense-list\cf0\i0  \cf5\{\cf0\par
+  \cf4 margin-bottom\cf5 :\cf0  \cf7\i 20px\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding\cf5 :\cf0  \cf7\i 20px\cf5\i0 ;\cf0\par
+\cf5   \cf4 border-radius\cf5 :\cf0  \cf7\i 5px\cf5\i0 ;\cf0\par
+\cf5   \cf4 background-color\cf5 :\cf0  \cf7\i #fff\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .enter-budget-box\i0  \b label,\cf0\b0\par
+\cf3\i .add-expense-box\i0  \b label\cf0\b0  \cf5\{\cf0\par
+  \cf4 display\cf5 :\cf0  \cf7\i block\cf5\i0 ;\cf0\par
+\cf5   \cf4 margin-bottom\cf5 :\cf0  \cf7\i 10px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\b input\b0 [type="number"]\b ,\cf0\b0\par
+\cf3\b input\b0 [type="text"]\b ,\cf0\b0\par
+\cf3\b select\cf0\b0  \cf5\{\cf0\par
+  \cf4 width\cf5 :\cf0  \cf7\i 100%\cf5\i0 ;\cf0\par
+\cf5   \cf4 padding\cf5 :\cf0  \cf7\i 5px\cf5\i0 ;\cf0\par
+\cf5   \cf4 margin-bottom\cf5 :\cf0  \cf7\i 10px\cf5\i0 ;\cf0\par
+\cf5   \cf4 border\cf5 :\cf0  \cf7\i 1px\cf0\i0  \cf7\i solid\cf0\i0  \cf7\i #333\cf5\i0 ;\cf0\par
+\cf5   \cf4 border-radius\cf5 :\cf0  \cf7\i 5px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\b button\cf0\b0  \cf5\{\cf0\par
+  \cf4 padding\cf5 :\cf0  \cf7\i 5px\cf0\i0  \cf7\i 15px\cf5\i0 ;\cf0\par
+\cf5   \cf4 background\cf5 :\cf0  \cf7\i none\cf5\i0 ;\cf0\par
+\cf5   \cf4 border\cf5 :\cf0  \cf7\i 1px\cf0\i0  \cf7\i solid\cf0\i0  \cf7\i #333\cf5\i0 ;\cf0\par
+\cf5   \cf4 cursor\cf5 :\cf0  \cf7\i pointer\cf5\i0 ;\cf0\par
+\cf5   \cf4 border-radius\cf5 :\cf0  \cf7\i 5px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .expense-list\i0  \b table\cf0\b0  \cf5\{\cf0\par
+  \cf4 width\cf5 :\cf0  \cf7\i 100%\cf5\i0 ;\cf0\par
+\cf5   \cf4 text-align\cf5 :\cf0  \cf7\i center\cf5\i0 ;\cf0\par
+\cf5   \cf4 border-collapse\cf5 :\cf0  \cf7\i collapse\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .expense-list\i0  \b table\b0  \b th,\cf0\b0\par
+\cf3\i .expense-list\i0  \b table\b0  \b td\cf0\b0  \cf5\{\cf0\par
+  \cf4 padding\cf5 :\cf0  \cf7\i 8px\cf5\i0 ;\cf0\par
+\cf5   \cf4 border\cf5 :\cf0  \cf7\i 1px\cf0\i0  \cf7\i solid\cf0\i0  \cf7\i #333\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i .expense-list\i0  \b table\b0  \b th\cf0\b0  \cf5\{\cf0\par
+  \cf4 background-color\cf5 :\cf0  \cf7\i #333\cf5\i0 ;\cf0\par
+\cf5   \cf4 color\cf5 :\cf0  \cf7\i #fff\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf3\i #reset-app-btn\cf0\i0  \cf5\{\cf0\par
+  \cf4 margin-left\cf5 :\cf0  \cf7\i 10px\cf5\i0 ;\cf0\par
+\cf5\}\cf0\par
+\par
+\cf1\b\f0\fs22\par
+\par
+}
+ 
